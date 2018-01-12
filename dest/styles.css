@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Timeburner';
+  src: url('fonts/TimeBurner.woff') format('woff');
+}
+
+#hero {
+  width: 100vw;
+  height: auto;
+  max-height: calc(100vh - 56px);
+}
+
+body {
+  background-color: #1d1a1a;
+}
+
+#hero-image {
+  background-color: red;
+  background: url('images/hero.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  max-height:
+}
+
+#hero-image h1 {
+  font-family: 'TimeBurner';
+  font-weight: bold;
+  position: absolute;
+  font-size: 10vw;
+  margin: 0;
+}
+
+.page-wrapper {
+  padding: 20px 30px;
+}
+
+.description {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.description p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px !important;
+  font-weight: 300 !important;
+}
+
+.page-wrapper form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 400px;
+}
+
+.page-wrapper form button {
+  margin: 0 20px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mdl-textfield {
+  width: auto !important;
+}
+
+.mdl-textfield__label {
+  color: rgb(158, 158, 158) !important;
+}
+
+.mdl-textfield__input {
+  border-bottom: 1px solid rgba(158, 158, 158, .12) !important;
+}
+
+.mdl-layout__header-row {
+  padding-left: 36px !important;
+}
+
+.mdl-layout__content {
+  /* overflow: hidden !important; */
+}
+
+.mdl-layout__header {
+  background-color: #1d1a1a !important;
+  color: white !important;
+}
+
+.mdl-navigation__link {
+  color: white !important;
+}
